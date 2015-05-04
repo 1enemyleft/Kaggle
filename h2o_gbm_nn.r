@@ -209,7 +209,7 @@ fit <- h2o.ensemble(x=predictors,
                     metalearner = metalearner)
 
 ######################################################################
-## Step 9 - Make Final Test Set Predictions for Submission
+## Step 10 - Make Final Test Set Predictions for Submission
 ######################################################################
 
 ## Predictions: label + 9 per-class probabilities
